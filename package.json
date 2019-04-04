@@ -56,6 +56,6 @@
     "docz": "0.13.7",
     "docz-theme-default": "0.13.7",
     "jest": "24.5.0",
-    "typescript": "3.3.3333"
+    "typescript": "3.4.1"
   }
 }
