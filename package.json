@@ -1,19 +1,19 @@
 {
-  "name": "typescript-react-library-starter",
+  "name": "typescript-library-starter",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Scaffold for writing library in typescript with coooool tools.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/menthays/typescript-react-library-starter.git"
+    "url": "https://github.com/menthays/typescript-library-starter.git"
   },
   "scripts": {
     "docz:dev": "docz dev",
     "docz:build": "docz build",
     "test": "jest",
-    "tsc": "tsc --noEmit",
     "build": "pack build",
-    "publish": "pack publish"
+    "publish": "pack publish",
+    "version": "npm run build"
   },
   "babel": {
     "presets": [
@@ -48,10 +48,10 @@
     "@babel/preset-env": "7.4.5",
     "@babel/preset-typescript": "7.3.3",
     "@pika/pack": "0.4.0",
-    "@pika/plugin-build-node": "0.4.0",
-    "@pika/plugin-build-types": "0.4.0",
-    "@pika/plugin-build-web": "0.4.0",
-    "@pika/plugin-standard-pkg": "0.4.0",
+    "@pika/plugin-build-node": "^0.3.16",
+    "@pika/plugin-build-types": "^0.3.16",
+    "@pika/plugin-build-web": "^0.4.0",
+    "@pika/plugin-standard-pkg": "^0.4.0",
     "@types/jest": "24.0.15",
     "docz": "1.2.0",
     "docz-theme-default": "1.2.0",
